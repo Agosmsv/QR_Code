@@ -5,7 +5,7 @@ import qrcode
 qr = qrcode.QRCode(version=3, box_size=20, border=10, error_correction=qrcode.constants.ERROR_CORRECT_H)
 
 # Define the data to be encoded in the QR code
-data = "hhttps://github.com/Agosmsv"
+data = "https://github.com/Agosmsv"
 
 # Add the data to the QR code object
 qr.add_data(data)
